@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: BrunoAce;
+  src: url('./Assets/Fonts/BrunoAce-Regular.ttf');
+}
+@font-face {
+  font-family: merriweatherBlack;
+  src: url('./Assets/Fonts/Merriweather/Merriweather-Black.ttf');
+}
+@font-face {
+  font-family: merriweatherBold;
+  src: url('./Assets/Fonts/Merriweather/Merriweather-Bold.ttf');
+}
+@font-face {
+  font-family: merriweatherLight;
+  src: url('./Assets/Fonts/Merriweather/Merriweather-Light.ttf');
+}
+@font-face {
+  font-family: merriweatherRegular;
+  src: url('./Assets/Fonts/Merriweather/Merriweather-Regular.ttf');
+}
