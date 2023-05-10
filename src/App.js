@@ -3,21 +3,12 @@ import Profile from "./Components/profilePicture.jsx";
 import "./App.css";
 import Button from "react-bootstrap/Button";
 import TopNavbar from "./Components/Navbar";
+import Education from "./Components/Education";
 
 function App() {
   return (
     <>
       <TopNavbar></TopNavbar>
-      <div className="main-container">
-        <Profile></Profile>
-        {/* <div class="break"></div> */}
-        {/* Himanshu */}
-
-        <div className="profile-text">
-          Himanshu Sharma <br />
-          <span className="skills-set">FullStack Developer</span>
-        </div>
-      </div>
     </>
   );
 }
