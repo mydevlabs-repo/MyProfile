@@ -7,7 +7,7 @@ function PageNotFound() {
       <img
         src={InvalidRoute}
         style={{ display: "block", margin: "auto" }}
-      ></img>
+      alt="invalid route"></img>
       <h1>Page Not Found</h1>
       <h6>But here's something you can always find </h6>
       <Link to="/home">Go Back Homepage</Link>
