@@ -1,18 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Logo from "../Assets/Logo/MyLabs.png";
-import Skills from "../Routes/Skills";
-import Experience from "../Routes/Experience";
-import App from "../App";
-import Home from "../Routes/Home";
-import Graduation from "../Routes/Graduation";
-import {
-  BrowserRouter as Router,
-  Switch,
-  NavLink,
-  Routes,
-  Route,
-  Link,
-} from "react-router-dom";
+
+import { NavLink } from "react-router-dom";
 function TopNavbar() {
   return (
     <Nav
@@ -23,7 +12,7 @@ function TopNavbar() {
       <div className="web-title me-auto">
         <Nav.Item>
           <NavLink to="/home">
-            <img src={Logo} className="logo"></img>
+            <img src={Logo} className="logo" alt="logo"></img>
           </NavLink>
         </Nav.Item>
       </div>

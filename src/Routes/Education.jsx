@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import "../Components/style.css";
 import Graduation from "./Graduation";
-// import HighSchool from "./HighSchool";
-// import Ssc from "./Ssc";
-// import Button from "react-bootstrap/Button";
+
 import { Link, useOutlet } from "react-router-dom";
 function Education() {
   const Outlet = useOutlet();
-  // const [isActive, setIsActive] = useState(false);
 
   const [isGrad, setIsGrad] = useState(true);
   const [isSsc, setIsSsc] = useState(false);

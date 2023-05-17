@@ -1,28 +1,16 @@
-import logo from "./logo.svg";
-import Profile from "./Components/profilePicture.jsx";
 import "./App.css";
-import Button from "react-bootstrap/Button";
+
 import TopNavbar from "./Components/Navbar";
-import Education from "./Routes/Education";
+
 import React, { lazy, Suspense } from "react";
 
 import {
   BrowserRouter as Router,
   Navigate,
-  Switch,
-  Redirect,
-  NavLink,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
-// import Skills from "./Routes/Skills";
-// import Experience from "./Routes/Experience";
-// import Home from "./Routes/Home";
-// import Graduation from "./Routes/Graduation";
-// import Loading from "./Components/Loading";
-// import Ssc from "./Routes/Ssc";
-// import HighSchool from "./Routes/HighSchool";
+
 import Footer from "./Components/Footer";
 
 const Home = lazy(() => import("./Routes/Home"));

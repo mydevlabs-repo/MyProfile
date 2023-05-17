@@ -4,7 +4,6 @@ import "../App.css";
 // import Button from "react-bootstrap/Button";
 // import TopNavbar from "./Components/Navbar";
 import Education from "./Education";
-import { Outlet } from "react-router-dom";
 
 function Home() {
   return (
