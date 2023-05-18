@@ -1,3 +1,28 @@
+.sticky-bar {
+  border-radius: 5px;
+  margin-bottom: -3vmax;
+  /* padding: 0.1vmax; */
+  background-color: white;
+  float: right;
+  position: sticky;
+  z-index: 10;
+  top: 40%;
+  transform: rotate(270deg);
+  font-family: BrunoAce;
+  /* display: flex; */
+  margin-right: -2vmax;
+  opacity: 0.9;
+}
+.touch-logo {
+  transform: rotate(90deg);
+  margin: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.get-in-touch {
+  /* transform: rotate(270deg); */
+}
 .top-nav {
   z-index: 10;
   padding: 0.5vmax;
@@ -253,6 +278,13 @@
 .ex-card-body {
   font-family: ptSerifRegular;
 }
+.ex-cards:hover {
+  cursor: pointer;
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* z-index: 10; */
+  /* transition: 3s ease-out; */
+}
 
 @media screen and (max-width: 600px) {
   .profile-picture {
@@ -261,6 +293,23 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .experience-container {
+    width: 103vw !important;
+  }
+  .sk-container {
+    width: 103vw;
+  }
+  .main-container {
+    width: 103vw !important;
+  }
+  .education-container {
+    width: 103vw !important;
+  }
+  .sticky-bar {
+    /* border-radius: 5px; */
+    margin-right: 0 !important;
+    margin-bottom: -7vmax;
+  }
   .ex-card-body-cont {
     height: 24vh !important;
   }

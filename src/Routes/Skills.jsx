@@ -20,9 +20,11 @@ import SonarcubeLogo from "../Assets/sonarcube.png";
 import WebscanLogo from "../Assets/webscan.png";
 import AwsLogo from "../Assets/aws.png";
 import AzureLogo from "../Assets/Azure.png";
+import StickyBar from "../Components/StickyBar";
 function Skills() {
   return (
     <React.Fragment>
+      <StickyBar></StickyBar>
       <div className="sk-container">
         <FrontEnd></FrontEnd>
         <div className="fe-container">

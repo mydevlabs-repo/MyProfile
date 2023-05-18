@@ -13,7 +13,7 @@
   background-image: url("./Assets/ocean.jpg");
 
   background-color: #b8d3e4;
-  height: 95vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -49,4 +49,9 @@
   height: 90vh;
   text-align: center;
   align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .footer {
+    width: 103vw;
+  }
 }

@@ -3,10 +3,12 @@ import "../Components/style.css";
 import InfyLogo from "../Assets/Infy.jpg";
 import TcsLogo from "../Assets/tcs.png";
 import MogliLogo from "../Assets/moglix.png";
+import StickyBar from "../Components/StickyBar";
 
 function Experience() {
   return (
     <>
+      <StickyBar></StickyBar>
       <div className="experience-container">
         {[
           {
