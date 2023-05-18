@@ -282,6 +282,12 @@
   }
 }
 @media screen and (max-width: 400px) {
+  .experience-container {
+    height: auto !important;
+  }
+  .ex-card-body-cont {
+    height: 45vh !important;
+  }
   .web-items {
     width: 68vw !important;
   }
