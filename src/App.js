@@ -6,7 +6,7 @@ import React, { lazy, Suspense } from "react";
 
 import {
   BrowserRouter as Router,
-  Navigate,
+  
   Routes,
   Route,
 } from "react-router-dom";
@@ -35,7 +35,7 @@ function App() {
 
           <Route path="/experience" element={<Experience />} />
 
-          <Route path="/" element={<Navigate to="/home/grad" />} />
+          <Route path="/" element={<Home />} />
 
           <Route path="/home" element={<Home />} replace>
             <Route index path="grad" element={<Graduation />} />

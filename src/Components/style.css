@@ -9,11 +9,6 @@
   padding-left: 10vmin !important;
   width: 100%;
 }
-@media screen and (max-width: 900px) {
-  .web-items {
-    width: 62vw !important;
-  }
-}
 
 .logo {
   height: 3vmax;
@@ -33,30 +28,6 @@
   margin-bottom: 40vh;
   border: black 5px solid;
   /* box-shadow: 1px 1px 1px 1px #394867; */
-}
-@media screen and (max-width: 600px) {
-  .profile-picture {
-    height: 75vmin !important;
-    width: 75vmin !important;
-  }
-}
-@media screen and (max-width: 900px) {
-  .profile-picture {
-    height: 55vmin !important;
-    width: 55vmin !important;
-  }
-}
-@media screen and (max-width: 500px) {
-  .profile-picture {
-    height: 60vmin !important;
-    width: 60vmin !important;
-  }
-}
-@media screen and (max-width: 400px) {
-  .profile-picture {
-    height: 85vmin !important;
-    width: 85vmin !important;
-  }
 }
 
 .education-container {
@@ -268,4 +239,48 @@
   content: "";
   border: 10px solid black;
   border-radius: 100%;
+}
+.card-body {
+  padding-top: 0.1vmax;
+  line-height: 0;
+  padding-bottom: 1vmax;
+  height: 5vmax;
+  border-top: 2px solid #eee;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-picture {
+    height: 75vmin !important;
+    width: 75vmin !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .web-items {
+    width: 62vw !important;
+  }
+  .profile-picture {
+    height: 55vmin !important;
+    width: 55vmin !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .profile-picture {
+    height: 60vmin !important;
+    width: 60vmin !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .web-items {
+    width: 68vw !important;
+  }
+  .sk-cards {
+    height: 20vh !important;
+  }
+  .card-body {
+    height: 8vmax !important;
+  }
+  .profile-picture {
+    height: 85vmin !important;
+    width: 85vmin !important;
+  }
 }

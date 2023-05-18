@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 function SkCards(props) {
   return (
     <Card
+      className="sk-cards"
       style={{
         width: "14rem",
         marginTop: "1rem",
@@ -16,15 +17,7 @@ function SkCards(props) {
         variant="top"
         src={props.imgSrc}
       />
-      <Card.Body
-        style={{
-          paddingTop: "0.1vmax",
-          lineHeight: "0",
-          paddingBottom: "1vmax",
-          height: "5vmax",
-          borderTop: "2px solid #eee",
-        }}
-      >
+      <Card.Body className="card-body" style={{}}>
         <Card.Title style={{ fontWeight: "600", fontSize: "larger" }}>
           {props.cardTitle}
         </Card.Title>

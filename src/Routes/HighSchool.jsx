@@ -1,3 +1,4 @@
+import Accordion from "react-bootstrap/Accordion";
 function HighSchool() {
   return (
     <div className="graduation-container">
