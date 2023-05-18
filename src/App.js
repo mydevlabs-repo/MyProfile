@@ -6,7 +6,7 @@ import React, { lazy, Suspense } from "react";
 
 import {
   BrowserRouter as Router,
-  Navigate,
+  
   Routes,
   Route,
 } from "react-router-dom";
