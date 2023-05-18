@@ -62,3 +62,32 @@ code {
   font-family: robotoThin;
   src: url("./Assets/Fonts/Roboto/Roboto-Thin.ttf");
 }
+
+@font-face {
+  font-family: ibmSerifLight;
+  src: url("./Assets/Fonts/IBM-Serif/IBMPlexSerif-Light.ttf");
+}
+@font-face {
+  font-family: ibmSerifMedium;
+  src: url("./Assets/Fonts/IBM-Serif/IBMPlexSerif-Medium.ttf");
+}
+@font-face {
+  font-family: ibmSerifRegular;
+  src: url("./Assets/Fonts/IBM-Serif/IBMPlexSerif-Regular.ttf");
+}
+@font-face {
+  font-family: notoSerifRegular;
+  src: url("./Assets/Fonts/NotoSerif-Regular.ttf");
+}
+@font-face {
+  font-family: ptSerifBold;
+  src: url("./Assets/Fonts/PTSerif-Bold.ttf");
+}
+@font-face {
+  font-family: ptSerifRegular;
+  src: url("./Assets/Fonts/PTSerif-Regular.ttf");
+}
+@font-face {
+  font-family: ptSerifItalic;
+  src: url("./Assets/Fonts/PTSerif-Italic.ttf");
+}

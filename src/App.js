@@ -4,12 +4,7 @@ import TopNavbar from "./Components/Navbar";
 
 import React, { lazy, Suspense } from "react";
 
-import {
-  BrowserRouter as Router,
-  
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Footer from "./Components/Footer";
 
@@ -35,11 +30,7 @@ function App() {
 
           <Route path="/experience" element={<Experience />} />
 
-<<<<<<< HEAD
           <Route path="/" element={<Home />} />
-=======
-          <Route path="/"  element={<Home />} />
->>>>>>> da5dc0d1f1275898142928c48af2b39ebaa37322
 
           <Route path="/home" element={<Home />} replace>
             <Route index path="grad" element={<Graduation />} />

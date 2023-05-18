@@ -224,10 +224,12 @@
   position: fixed;
 }
 .experience-container {
+  padding-right: 1vmax;
   padding-top: 5vmax;
   padding-left: 5vmax;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #eee;
+  padding-bottom: 1vh;
 }
 .clg-crd {
   display: flex;
@@ -248,6 +250,10 @@
   border-top: 2px solid #eee;
 }
 
+.ex-card-body {
+  font-family: ptSerifRegular;
+}
+
 @media screen and (max-width: 600px) {
   .profile-picture {
     height: 75vmin !important;
@@ -255,6 +261,12 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .ex-card-body-cont {
+    height: 24vh !important;
+  }
+  .experience-container {
+    height: 100vh !important;
+  }
   .web-items {
     width: 62vw !important;
   }
