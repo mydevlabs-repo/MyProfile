@@ -13,7 +13,7 @@ function ExCards(props) {
       <div
         className="ex-card-body-cont"
         style={{
-          borderTopLeftRadius: "30px",
+          borderTopLeftRadius: "8px",
           display: "flex",
           padding: "2vmax",
           borderLeft: "10px solid" + props.bColor,
@@ -29,7 +29,32 @@ function ExCards(props) {
           style={{ borderTop: "none", paddingTop: "1vmax" }}
         >
           <Card.Title style={{ fontWeight: "600", fontSize: "larger" }}>
-            {props.Designation}
+            <span>
+              <span>{props.Designation}</span>
+              <span
+                className="tenure"
+                style={{
+                  fontFamily: "ptSerifItalic",
+                  fontWeight: "100",
+                  fontSize: "medium",
+                  float: "right",
+                }}
+              >
+                ({props.tenure})
+              </span>
+            </span>
+            <span
+              className="tenure-flag"
+              style={{
+                display: "none",
+                fontFamily: "ptSerifItalic",
+                fontWeight: "100",
+                fontSize: "medium",
+                float: "right",
+              }}
+            >
+              <br />({props.tenure})
+            </span>
             <br />
             <span
               style={{

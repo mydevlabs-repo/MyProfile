@@ -16,6 +16,15 @@ function TopNavbar() {
           </NavLink>
         </Nav.Item>
       </div>
+      <button className="ham-btn">
+        <div>
+          <div className="ham-menu"></div>
+          <br />
+          <div className="ham-menu"></div>
+          <br />
+          <div className="ham-menu"></div>
+        </div>
+      </button>
       <div className="web-items">
         <Nav.Item>
           <NavLink to="/home" className="text-decoration-none">

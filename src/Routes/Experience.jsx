@@ -18,6 +18,7 @@ function Experience() {
               "Cloud Engineer | Full Stack Developer | AEM Developer",
             imgSrc: InfyLogo,
             bColor: "#0579c2",
+            tenure: `Mar' 2023 to Present`,
           },
           {
             cardTitle: "TCS",
@@ -26,14 +27,17 @@ function Experience() {
               "Full Stack Developer | Security Ninja | Cloud Architecture Spoc | Project Induction Trainer",
             imgSrc: TcsLogo,
             bColor: "#a309b6",
+            tenure: `Nov' 2020 to Mar' 2023`,
           },
           {
             cardTitle: "Moglix",
             designation: "Digital Marketing and Analytics Intern",
             Responsibilities:
               "Digital Marketing | Competitive Research Analyst | Data Analyst",
+
             imgSrc: MogliLogo,
             bColor: "#db232e",
+            tenure: `May' 2019 to July 2019`,
           },
         ].map((variant) => (
           <ExCards
@@ -42,6 +46,7 @@ function Experience() {
             Responsibilities={variant.Responsibilities}
             imgSrc={variant.imgSrc}
             bColor={variant.bColor}
+            tenure={variant.tenure}
           ></ExCards>
         ))}
       </div>

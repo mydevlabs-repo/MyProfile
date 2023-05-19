@@ -11,7 +11,10 @@
   font-family: BrunoAce;
   /* display: flex; */
   margin-right: -2vmax;
-  opacity: 0.9;
+  opacity: 0.4;
+}
+.sticky-bar:hover {
+  opacity: 1;
 }
 .touch-logo {
   transform: rotate(90deg);
@@ -24,6 +27,7 @@
   /* transform: rotate(270deg); */
 }
 .top-nav {
+  align-items: center;
   z-index: 10;
   padding: 0.5vmax;
   border-bottom: 2px solid black;
@@ -38,12 +42,6 @@
 .logo {
   height: 3vmax;
   width: 10vmax;
-}
-.web-items {
-  width: 25vw;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
 }
 
 .profile-picture {
@@ -285,14 +283,88 @@
   /* z-index: 10; */
   /* transition: 3s ease-out; */
 }
+.sk-cards:hover {
+  cursor: pointer;
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* z-index: 10; */
+  /* transition: 3s ease-out; */
+}
+.ham-menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: -10px;
+}
 
+.web-items {
+  width: 25vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.ham-btn {
+  display: none;
+}
 @media screen and (max-width: 600px) {
+  .tenure {
+    /* display: block; */
+    float: none !important;
+  }
   .profile-picture {
     height: 75vmin !important;
     width: 75vmin !important;
   }
 }
 @media screen and (max-width: 900px) {
+  .ham-btn {
+    margin-right: 4vmax;
+    display: flex;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+  }
+  .web-items {
+    text-align: center !important;
+    display: none;
+    margin-top: 19vh !important;
+    background-color: white !important;
+    position: absolute !important;
+    align-items: center !important;
+    /* display: flex; */
+    justify-content: space-around !important;
+    height: 12vh !important;
+    float: right !important;
+    margin-right: 1vmax !important;
+    right: 0 !important;
+    padding: 1vmax !important;
+    width: 33vw;
+  }
+  .ham-btn:hover ~ .web-items {
+    display: block;
+  }
+  .ham-btn:focus {
+    background-color: #0000003b !important;
+  }
+  .ham-btn:focus ~ .web-items {
+    display: block;
+  }
+  .web-items:hover {
+    display: block;
+  }
+  .ham-btn {
+    width: 13vw;
+    height: 5vh;
+  }
+  .tenure {
+    display: none;
+  }
+  .tenure-flag {
+    display: contents !important;
+  }
   .experience-container {
     width: 103vw !important;
   }
@@ -316,9 +388,7 @@
   .experience-container {
     height: 100vh !important;
   }
-  .web-items {
-    width: 62vw !important;
-  }
+
   .profile-picture {
     height: 55vmin !important;
     width: 55vmin !important;
@@ -331,18 +401,24 @@
   }
 }
 @media screen and (max-width: 400px) {
+  .sticky-bar {
+    /* border-radius: 5px; */
+    /* margin-right: 0 !important; */
+    margin-bottom: -9vmax;
+  }
   .experience-container {
     height: auto !important;
   }
   .ex-card-body-cont {
     height: 45vh !important;
   }
-  .web-items {
+  /* .web-items {
     width: 68vw !important;
-  }
+  } */
   .sk-cards {
     height: 20vh !important;
   }
+
   .card-body {
     height: 8vmax !important;
   }
